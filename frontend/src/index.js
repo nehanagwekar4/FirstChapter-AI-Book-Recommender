@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+// Assuming you have 'sonner' installed for Toaster, otherwise remove this import and the <Toaster> component
+// import { Toaster } from 'sonner';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+    {/* <Toaster position="top-center" richColors /> */}
+  </React.StrictMode>
+);

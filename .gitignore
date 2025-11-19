@@ -1,0 +1,28 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data & Models
+backend/*.npz
+backend/*.pkl
+backend/*.json
+!backend/.env.example
+!backend/data/*.csv
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
